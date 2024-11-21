@@ -15,10 +15,20 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Aprendamos React
         </a>
       </header>
     </div>
+  );
+}
+
+function TodoItem(){
+  return(
+    <li>
+      <span>V</span>
+      <p>Llorar con la Llorona</p>
+      <span>X</span>
+    </li>
   );
 }
 
